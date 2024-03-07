@@ -1,0 +1,242 @@
+*{
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main-nav{
+    padding: 15px 50px 15px 50px;
+    /* position: fixed; */
+    background-color: #F8F9FA;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000px;
+    border: 1px solid red;
+}
+
+.nav-h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0802a3;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-div{
+    /* padding-left: 50px; */
+}
+
+ul {
+    display: block;
+    text-align: center;
+}
+
+ul a{
+    color: #121214;
+
+}
+
+.btn-one{
+    border: 1px solid #0802a3;
+    color: #0802a3;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80px;
+}
+
+.btn-two{
+    background-color: #0802a3;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.flex-div{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.flex-div-item{
+    border: 1px solid red;
+    width: 50%;
+}
+
+.flex-div-item:nth-child(1){
+    padding: 50px 100px 50px 100px;
+}
+
+.flex-div-item h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.flex-div-item p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #464647;
+}
+
+
+.p-only{
+    font-size: 32px;
+    font-weight: 700;
+    color: #121214;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.flex-two{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border: 1px solid black; */
+    padding: 0 50px 0 50px;
+    margin-top: 50px;
+}
+
+.flex-two-item{
+    width: 180px;
+    /* border: 1px solid black; */
+    padding-top: 10px;
+    text-align:center ;
+    height: 270px;
+    border-radius: 5px;
+}
+
+.flex-two-item img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.flex-two-item p{
+    margin: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.flex-two-item:nth-child(1){
+    background-color: #0802a3;
+    color: white;
+}
+
+.flex-two-item:nth-child(2){
+    background-color: #FF7676;
+    color: white;
+}
+
+.flex-two-item:nth-child(3){
+    background-color: #FF4B91;
+    color: white;
+}
+
+.flex-two-item:nth-child(4){
+    background-color: #FFCD4B;
+    color: white;
+}
+
+.flex-two:nth-child(2){
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box-one{
+    border: 1px solid #0802a3;
+    height: 300px;
+    width: 320px;
+    border-radius: 10px;padding: 120px 30px 0 30px;
+}
+
+.box-one:hover{
+    cursor: pointer;
+}
+
+.box-one p{
+    color: #4f0101;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.box-one:nth-child(2){
+    border: 1px solid#FF7676;
+}
+
+.box-one:nth-child(3){
+    border: 1px solid#FF7676;
+}
+
+.view{
+    margin: auto;
+    width: 280px;
+    /* border: 1px solid#FF7676; */
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px 0 15px 0;
+    border-radius: 5px;
+    background-color: #0802a3;
+    background-image: url(image/svgexport-2.svg);
+    background-repeat: no-repeat;
+    background-position: 180px;
+}
+
+.view:hover{
+    cursor: pointer;
+}
+
+.view a{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flex-div-last{
+    border: 1px solid#FF7676;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    background-color: #FF4B91;
+}
+
+.flex-div-last-item{
+    width: 50%;
+    padding: 50px;
+}
+
+.flex-div-last-item p{
+    color: white;
+    line-height: 48px;
+    font-size: 32px;
+    font-weight: 500;
+    padding-left: 80px;
+}
+
+.flex-div-last-item div{
+    border: 1px solid #0802a3;
+    background-color: white;
+    margin-left: 80px;
+    width: 220px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.flex-div-last-item a {
+    color: #ff4b91;
+    font-size: 20px;
+    font-weight: 700;
+}
